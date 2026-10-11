@@ -1,0 +1,17 @@
+l1 = [12, 5, 30, 8, 2, 20]
+
+largest = numbers[0]
+smallest = numbers[0]
+
+for i in range(0,len(l1)):
+    if num > largest:
+        largest = num
+
+    if num < smallest:
+        smallest = num
+
+difference = largest - smallest
+
+print("Largest:", largest)
+print("Smallest:", smallest)
+print("Difference:", difference)
