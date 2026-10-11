@@ -1,0 +1,12 @@
+l1 = [10, 20, 30, 40, 50]
+all_positive = True
+
+for i in range(0,len(l1)):
+    if l1 <= 0:
+        all_positive = False
+        break
+
+if all_positive:
+    print("All elements are positive")
+else:
+    print("Not all elements are positive")
