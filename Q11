@@ -1,0 +1,5 @@
+l1=[6,2,3,8,4,9]
+target=8
+for i in range(0,len(l1)):
+  if l1[i] == target:
+        print(i)
