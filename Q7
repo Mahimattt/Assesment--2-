@@ -1,0 +1,6 @@
+l1=[6,8,2,7,1]
+evenlist=[]
+for i in range(0,len(l1)):
+  if l1[i]%2!=0:
+    evenlist.append(l1[i])
+print(evenlist)
