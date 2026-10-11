@@ -1,0 +1,6 @@
+l1=[3,6,2,7,9]
+result=[]
+for i in range(0,len(l1)):
+  result.append(l1[i])
+print("Original list:",l1)
+print("Copied List:",result)
